@@ -91,7 +91,7 @@ public class Array2D {
     public static void main(String...arg){
         Scanner sc = new Scanner(System.in);
         
-       /* // 1 simple example ( input-output-search key)
+        // 1 simple example ( input-output-search key)
         int matrix[][] = new int[3][3];
         int n = matrix.length, m = matrix[0].length;   // n=row m=colums
         // input
@@ -112,25 +112,25 @@ public class Array2D {
         // search key
         System.out.print("enter a number to find in array : ");
         int key = sc.nextInt();
-        search(matrix,key);   */
+        search(matrix,key);   
 
         // 1 spiral matrix
         int mat[][] = {{1,2,3,4},
                       {5,6,7,8},
                       {9,10,11,12},
                       {13,14,15,16}};
-        // spiralMatrix(mat);  
+        spiralMatrix(mat);  
         
         // 2 diagonal sum
-        // System.out.print("Diagonal sum : " + diagSum(mat));
+        System.out.print("Diagonal sum : " + diagSum(mat));
         
-        // 3 search in sorted array
-        //System.out.print("enter a number to find : ");
-        //int key = sc.nextInt();
+        3 search in sorted array
+        System.out.print("enter a number to find : ");
+        int key = sc.nextInt();
         int sorArr[][] = {{10,20,30,40},
                           {15,25,35,45},
                           {27,29,37,48},
                           {32,33,39,50}};
-        //staircaseSearch(sorArr, key);                  
+        staircaseSearch(sorArr, key);                  
     }
 }
